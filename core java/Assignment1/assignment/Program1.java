@@ -6,15 +6,15 @@ public class Program1 {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);//Scanner class
 		System.out.println("Enter the three number:- ");
 		
-		int a,b,c;
+		int a,b,c;//data type
 		a=sc.nextInt();
 		b=sc.nextInt();
 		c=sc.nextInt();
 		
-		if(a>b&&a>c) 
+		if(a>b&&a>c) //elseifLadder condition
 		{
 			System.out.println(a);
 		}
